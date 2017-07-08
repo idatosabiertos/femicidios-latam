@@ -1,0 +1,1 @@
+numero,edad,identidad_genero,tipo_victima,lugar_hecho,modalidad_comisiva,fecha_hecho
