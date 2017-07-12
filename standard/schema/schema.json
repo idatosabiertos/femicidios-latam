@@ -1,0 +1,12 @@
+{
+    "id": "",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Schema para publicación de datos de feminicidios",
+    "type": "object",
+    "properties": {
+        "id": {
+            "title": "Identificador para esta publicación de datos."
+        },
+        "date"
+    }
+}
