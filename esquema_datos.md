@@ -96,25 +96,25 @@ A considerar:
 
 Campos:
 
-Identificador: Identificador único en el sistema.
-Lugar: Lugar de la agresión.
-Fecha: Fecha de la agresión
-Descripción: Información relevante.
-Vinculo: Vinculo entre victima e imputado.
-         Pareja: ex-pareja, uniones convivenciales, conyugal, noviazgo
-         Familiares: fraternal, filial, otros familiares
-         Conocidos: otros no familiares
-         Extraños: inexistente
-         Sin Datos
-Estado procesal:
-        En proceso de investigación
-        Auto de sobreseimento
-        En proceso de juicio oral
-        Con sentencia condenatoria
-        Con sentencia absolutoria
-        Otra forma de terminación del proceso
-Registro de denuncias previas por violencia de genero
-        Si/No
+* Identificador: Identificador único en el sistema.
+* Lugar: Lugar de la agresión.
+* Fecha: Fecha de la agresión
+* Descripción: Información relevante.
+* Vinculo: Vinculo entre victima e imputado.
+         - Pareja: ex-pareja, uniones convivenciales, conyugal, noviazgo
+         - Familiares: fraternal, filial, otros familiares
+         - Conocidos: otros no familiares
+         - Extraños: inexistente
+         - Sin Datos
+* Estado procesal:
+        - En proceso de investigación
+        - Auto de sobreseimento
+        - En proceso de juicio oral
+        - Con sentencia condenatoria
+        - Con sentencia absolutoria
+        - Otra forma de terminación del proceso
+* Registro de denuncias previas por violencia de genero
+        - Si/No
 
 **Imputado**
 
@@ -127,10 +127,10 @@ A considerar:
 
 Campos:
 
-Identificador: Identificador único en el sistema.
-Identidad de Genero: Aquí considerando si incluir personas transgenero o no binarias.
-Rango de Edad: En que rango de edad cae.
-Relación con la victima: Que tipo de relación previa tenian.
+* Identificador: Identificador único en el sistema.
+* Identidad de Genero: Aquí considerando si incluir personas transgenero o no binarias.
+* Rango de Edad: En que rango de edad cae.
+* Relación con la victima: Que tipo de relación previa tenian.
 
 ## Calidad de los datos
 
