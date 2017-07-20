@@ -1,6 +1,6 @@
 # Esquema de Datos
 
-*En Construcción – última revisión - 2017/07/08*
+*En Construcción – última revisión - 2017/07/20*
 
 ## Introducción
 
