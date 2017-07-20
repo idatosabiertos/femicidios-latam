@@ -6,7 +6,57 @@
 
 Hacer una puesta en común de datos recolectados sobre feminicidios en diferentes lugares de Latinoamerica. Crear guias y recomendaciones sobre datos a recolectar, con que metodologias y como publicarlos.
 
-## Fuente de los Datos
+##  Fuente de los Datos
+
+Fuentes Oficiales
+
+* Ministerio de Justicia - Corte
+* Organismo de la mujer - Ministerio de la mujer - Consejo Nacional de la Mujer,
+* Policia - Ministerio del Interior
+* Instituto de Estadistica
+
+### Feminicidios 
+
+#### Argentina
+
+En Argentina hay un Registro Nacional de Femicidios 
+
+Feminicidio:  (https://www.oas.org/es/mesecvi/docs/DeclaracionFemicidio-ES.pdf)
+
+##### Ministerio de Justicia y Derechos Humanos
+
+Feminicidos desde el 2012 al 2017: http://datos.jus.gob.ar/dataset/registro-sistematizacion-y-seguimiento-de-femicidios-y-homicidios-agravados-por-el-genero
+
+
+##### Organizaciones Sociales
+
+- Casa del Encuentro: http://www.lacasadelencuentro.org/
+- Observatorio de Igualdad de Genero de America Latina y Caribe: http://oig.cepal.org/es/documentos/registro-nacional-femicidios-la-justicia-argentina-datos-estadisticos-poder-judicial
+
+#### Uruguay
+
+##### Sistema de Gestión de Seguridad Pública del Ministerio del Interior
+
+https://www.minterior.gub.uy/images/2017/femicidios.pdf
+
+- circunstancias en las que ocurrio el evento (lugar, motivo, tipo de relacion o vinculo entre autor y victima, hora, numero de participantes, tipo de armas empleadas)
+- caracterizticas de los autores y victima (sexo, edad, estado civil)
+
+##### Organizaciones Sociales
+
+- ONG Caminos
+- Observatorio de Violencia y Criminalidad 
+
+### No tienen Feminicidio oficialmente
+
+
+
+
+##
+
+
+
+### Fuentes que ya tenemos
 
 1. Protocolo de bogota sobre homicidios en general.
 
@@ -20,6 +70,8 @@ Campos: incidente, latitud, longitud, rango de edad, asesinadas por, situacion d
 
 ## Entidades
 
+**Metodologia de recolección de datos**
+
 **Víctima**
 
 Es la persona que fue objetivo del asesinato. 
@@ -31,9 +83,9 @@ Campos:
 
 Identificador: Identificador único en el sistema.
 Identidad de Genero: Aqui considerando si incluir personas transgenero o no binarias.
-Rango de Edad: En que rango de edad cae.
+Rango de Edad: En que rango de edad cae. 
 
-**Feminicidio**
+**Hecho**
 
 Datos sobre el asesinato mismo.
 
@@ -46,8 +98,23 @@ Identificador: Identificador único en el sistema.
 Lugar: Lugar de la agresión.
 Fecha: Fecha de la agresión
 Descripción: Información relevante.
+Vinculo: Vinculo entre victima e imputado.
+         Pareja: ex-pareja, uniones convivenciales, conyugal, noviazgo
+         Familiares: fraternal, filial, otros familiares
+         Conocidos: otros no familiares
+         Extraños: inexistente
+         Sin Datos
+Estado procesal:
+        En proceso de investigación
+        Auto de sobreseimento
+        En proceso de juicio oral
+        Con sentencia condenatoria
+        Con sentencia absolutoria
+        Otra forma de terminación del proceso
+Registro de denuncias previas por violencia de genero
+        Si/No
 
-**Asesino**
+**Imputado**
 
 Es la persona que cometió el asesinato. 
 
