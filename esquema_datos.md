@@ -15,7 +15,7 @@ Fuentes Oficiales
 * Policia - Ministerio del Interior
 * Instituto de Estadistica
 
-### Feminicidios 
+### Por País que tiene "definición de feminicidio" en la ley 
 
 #### Argentina
 
@@ -47,24 +47,26 @@ https://www.minterior.gub.uy/images/2017/femicidios.pdf
 - ONG Caminos
 - Observatorio de Violencia y Criminalidad 
 
-### No tienen Feminicidio oficialmente
+
+#### Peru
+
+##### Ministerio Publico - Observatorio de Criminalidad
+
+http://portal.mpfn.gob.pe/boletininformativo/infoestadfeminicidio
 
 
+### Por País que NO tiene "definición de feminicidio" en la ley
+
+*por hacer*
 
 
-##
+## Campos disponibles
 
-
-
-### Fuentes que ya tenemos
-
-1. Protocolo de bogota sobre homicidios en general.
-
-2. Datos de Argentina sobre feminicidios, del Ministerio de Justicia.
+1. Datos de Argentina sobre feminicidios, del Ministerio de Justicia.
 
 Campos: numero,edad,identidad_genero,tipo_victima,lugar_hecho,modalidad_comisiva,fecha_hecho
 
-3. Datos sobre feminicidios de Mexico recolectados desde la prensa.
+2. Datos sobre feminicidios de Mexico recolectados desde la prensa.
 
 Campos: incidente, latitud, longitud, rango de edad, asesinadas por, situacion del feminicida, conexion, municipio, entidad federativa, link, descripcion
 
