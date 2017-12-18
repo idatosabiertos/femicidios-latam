@@ -1,0 +1,65 @@
+{
+    "title": "",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "number"
+        },
+        "dni": {
+            "type": "string"
+        },
+        "nombre": {
+            "type": "string"
+        },
+        "sexo": {
+            "type": ""
+        },
+        "genero": {
+            "type": ""
+        },
+        "orientacionSexual": {
+            "type": ""
+        },
+        "edad": {
+            "type": ""
+        },
+        "lugarNacimiento": {
+            "type": ""
+        },
+        "nacionalidad": {
+            "type": ""
+        },
+        "educacion": {
+            "type": ""
+        },
+        "ocupacion": {
+            "type": ""
+        },
+        "lugarResidencia": {
+            "type": ""
+        },
+        "discapacidad": {
+            "type": ""
+        },
+        "condicionMigratoria": {
+            "type": ""
+        },
+        "medidasProteccion": {
+            "type": ""
+        },
+        "denunciasPrevias": {
+            "type": ""
+        },
+        "hijos": {
+            "type": ""
+        },
+        "fuente": {
+            "type": "object",
+            "properties": {
+                "institucion": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

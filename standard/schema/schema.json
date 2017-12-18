@@ -1,12 +1,30 @@
 {
-    "id": "",
+    "id": "http:///schema/0__0__1/release-schema.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "title": "Schema para publicación de datos de feminicidios",
-    "type": "object",
-    "properties": {
-        "id": {
-            "title": "Identificador para esta publicación de datos."
+    "titulo": "Esquema para Datos de Feminicidios",
+    "tipo": "objecto",
+    "propiedades": {
+        "fmid": {
+            "titulo": "Identificador del feminicidio",
+            "descripcion": "Un identificador a nivel país del feminicidio.",
+            "tipo": "string",
+            "minLargo": "1"
         },
-        "date"
+        "victima": {
+            "titulo": "Victima",
+            "descripcion": "Información sobre la victima del feminicidio. Mucha de esta información es sensible y tendra diferentes niveles de confidencialidad.",
+            "$ref": "#/definiciones/Victima"           
+        },
+        "perpetrador": {
+            "titulo": "Perpetrador",
+            "descripcion": "Información sobre quien se sospecha o se asegura que cometio el asesinato.",
+            "$ref": "#/definiciones/Imputado"
+        },
+        "hecho": {
+            "titulo": "Hecho",
+            "descripcion": "Información sobre el femicidio en si.",
+            "$ref": "#/definiciones/Hecho"
+        }
+
     }
 }

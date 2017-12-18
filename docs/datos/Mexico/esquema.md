@@ -26,12 +26,3 @@ A un costado de los cuerpos se encontraron cartulinas donde relacionan a las sei
 Al lugar arribaron cuerpos de seguridad federales y estatales en espera de la llegada de personal especializado en escena del crimen de la ProcuradurÃ­a General de Justicia del Estado.
 
 Con este multihomicidio suman 36 asesinatos por disparos de arma de fuego en lo que va de 2016.
-unnamed (1): 
-unnamed (2): 
-unnamed (3): 
-unnamed (4): 
-unnamed (5): 
-unnamed (6): 
-unnamed (7): 
-unnamed (8): 
-unnamed (9):

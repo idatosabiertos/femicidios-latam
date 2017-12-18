@@ -15,29 +15,74 @@ Fuentes Oficiales
 * Policia - Ministerio del Interior
 * Instituto de Estadistica
 
-### Por País que tiene "definición de feminicidio" en la ley 
+### Por País que tiene tipo penal del femicidio/feminicidio ###
 
-#### Argentina
+#### __Argentina__
 
-En Argentina hay un Registro Nacional de Femicidios 
-
-Feminicidio:  (https://www.oas.org/es/mesecvi/docs/DeclaracionFemicidio-ES.pdf)
+En Argentina hay un [Registro Nacional de Femicidios]((https://www.oas.org/es/mesecvi/docs/DeclaracionFemicidio-ES.pdf)). 
 
 ##### Ministerio de Justicia y Derechos Humanos
 
-Feminicidos desde el 2012 al 2017: http://datos.jus.gob.ar/dataset/registro-sistematizacion-y-seguimiento-de-femicidios-y-homicidios-agravados-por-el-genero
-
+Feminicidos desde el 2012 al 2017: [Fuente Original](http://datos.jus.gob.ar/dataset/registro-sistematizacion-y-seguimiento-de-femicidios-y-homicidios-agravados-por-el-genero).
 
 ##### Organizaciones Sociales
 
-- Casa del Encuentro: http://www.lacasadelencuentro.org/
-- Observatorio de Igualdad de Genero de America Latina y Caribe: http://oig.cepal.org/es/documentos/registro-nacional-femicidios-la-justicia-argentina-datos-estadisticos-poder-judicial
+- [Casa del Encuentro](http://www.lacasadelencuentro.org/)
+- [Observatorio de Igualdad de Genero de America Latina y Caribe](http://oig.cepal.org/es/documentos/registro-nacional-femicidios-la-justicia-argentina-datos-estadisticos-poder-judicial)
+
+
+##### Campos
+
+* numero (int): número de caso
+* edad (int): edad de la víctima
+* identidad_genero (string): identidad de género
+* tipo_victima (string): tipo de víctima (si se trata de un femicidio directo o vinculado)
+* lugar_hecho (string): lugar del hecho
+* modalidad_comisiva (string): modalidad comisiva
+* fecha_hecho (date): fecha del hecho
+
+#### Brasil
+
+No tenemos datos aún.
+
+
+#### __Chile__
+
+No tenemos datos aún.
+
+#### Colombia
+
+#### Costa Rica
+
+No tenemos datos aún.
+
+#### El Salvador
+
+No tenemos datos aún.
+
+#### Guatemala
+
+No tenemos datos aún.
+
+#### Mexico
+
+No tenemos datos oficiales aún.
+
+#### Nicaragua
+
+No tenemos datos aún.
+
+#### Peru
+
+##### Ministerio Publico - Observatorio de Criminalidad
+
+[Fuente Original](http://portal.mpfn.gob.pe/boletininformativo/infoestadfeminicidio).
 
 #### Uruguay
 
 ##### Sistema de Gestión de Seguridad Pública del Ministerio del Interior
 
-https://www.minterior.gub.uy/images/2017/femicidios.pdf
+[Fuente Original](https://www.minterior.gub.uy/images/2017/femicidios.pdf).
 
 - circunstancias en las que ocurrio el evento (lugar, motivo, tipo de relacion o vinculo entre autor y victima, hora, numero de participantes, tipo de armas empleadas)
 - caracterizticas de los autores y victima (sexo, edad, estado civil)
@@ -48,17 +93,18 @@ https://www.minterior.gub.uy/images/2017/femicidios.pdf
 - Observatorio de Violencia y Criminalidad 
 
 
-#### Peru
-
-##### Ministerio Publico - Observatorio de Criminalidad
-
-http://portal.mpfn.gob.pe/boletininformativo/infoestadfeminicidio
-
-
 ### Por País que NO tiene "definición de feminicidio" en la ley
 
-*por hacer*
+#### Colombia
 
+No tiene tipo penal especifico pero incorporo en su código penal el homicidio cometido "contra una mujer por el hecho de ser mujer".
+
+- Datos Policia Nacional:
+    * Delitos de homicidio para 2017 (a mayo) https://www.datos.gov.co/Seguridad-y-Defensa/Homicidios-2017/uej7-h7uq
+
+    * Delitos de homicidio para 2015 https://www.datos.gov.co/Seguridad-y-Defensa/Delito-Homicidios/cfga-dm6m
+
+    * Delitos de homicidio para 2014 https://www.datos.gov.co/Seguridad-y-Defensa/Delito-Homicidio/fbrt-d6qx
 
 ## Campos disponibles
 
@@ -87,8 +133,16 @@ Identificador: Identificador único en el sistema.
 Identidad de Genero: Aqui considerando si incluir personas transgenero o no binarias.
 Rango de Edad: En que rango de edad cae. 
 
+        "numero"
+        "edad",
+        "genero",
+        "tipo_victima",
+        "lugar_hecho",
+        "modalidad_comisiva",
+        "fecha_hecho"
+        
 **Hecho**
-
+ 
 Datos sobre el asesinato mismo.
 
 A considerar:
