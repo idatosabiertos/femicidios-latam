@@ -1,5 +1,5 @@
 {
-    "title": "victima",
+    "title": "imputado",
     "type": "object",
     "properties": {
         "id": {
@@ -38,16 +38,34 @@
         "lugarResidencia": {
             "type": "string"
         },
-        "discapacidad": {
-            "type": "string"
-        },
         "condicionMigratoria": {
             "type": "string"
         },
-        "medidasProteccion": {
+        "etnia": {
             "type": "string"
         },
-        "denunciasPrevias": {
+        "situacionJuridica": {
+            "type": "string"
+        },
+        "relacionVictima": {
+            "type": "string"
+        },
+        "tiempoRelacion": {
+            "type": "string"
+        },
+        "estadoConjugal": {
+            "type": "string"
+        },
+        "permisoPortacionArmas": {
+            "type": "string"
+        },
+        "pertenenciaFuerzaSeguridad": {
+            "type": "string"
+        },
+        "antecedentesviolencia": {
+            "type": "string"
+        },
+        "procesosJudiciales": {
             "type": "string"
         },
         "hijos": {

@@ -1,0 +1,41 @@
+{
+    "title": "",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "number"
+        },
+        "lugar": {
+            "type": "string"
+        },
+        "vinculado": {
+            "type": "string"
+        },
+        "modalidad": {
+            "type": "string"
+        },
+        "fecha": {
+            "type": "date"
+        },
+        "denunciaPrevia": {
+            "type": "string"
+        },
+        "estadoProcesal": {
+            "type": "string"
+        },
+        "suicidio": {
+            "type": "boolean"
+        },
+        "consumado": {
+            "type": "string"
+        },
+        "fuente": {
+            "type": "object",
+            "properties": {
+                "institucion": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

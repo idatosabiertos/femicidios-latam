@@ -1,10 +1,10 @@
 # Datos sobre feminicidios en Latinoamerica
 
-Repositorio para recolectar datos que servirán de insumo a creación de estandar sobre datos de femicidios en Latinoamerica.
+Repositorio para creación de estandar sobre datos de femicidios en Latinoamerica.
 
 # Esquema de Datos
 
-[Puesta en común de datos sobre feminicidios en diferentes paises en latinoamerica](esquema_datos.md).
+[Puesta en común de datos sobre feminicidios en diferentes paises en latinoamerica](docs/Esquema.md).
 
 # Herramientas de y aplicaciones de apoyo a situaciones de violencia
 
