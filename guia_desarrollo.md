@@ -1,53 +1,60 @@
-# Guia
+# Plan de Desarrollo
 
-*Objetivo: crear una versión estable del estándar.*
+Objetivo: crear una versión estable del estándar de datos de feminicidios.
 
 ## Equipo
 
-* technical experts to produce the technical document
-* early adopters to test the standard
-* reviewers to check the technical and supporting documentation
-* translators if it makes sense
+* Expertxs técnicxs que puedan producir documento con acuerdo técnico.
+* Participantes de la comunidad que puedan probar el estándar.
+* Crticxs para verificar la documentación técnica y de apoyo.
 
-## Como compartir el progreso
+## Seguimiento del proceso de desarrollo
 
-Compartir progreso del proyecto y actividad:
+Compartir el progreso del proyecto y actividades:
 
-- mediante reportes en cada fase
-- mediante talleres presenciales
-- trabajando publicamente
-    - en foros
-    - lista de correo
-    - repositorio en github
+* mediante informes en cada fase de desarrollo
+* mediante talleres presenciales
+* trabajando públicamente
+    * en foros
+    * lista de correo
+    * repositorio en github
 
-Organizar:
+Organización:
 
-- contactar regularmente a los participantes para enfocarse en temas importantes
-- tracking issues by collecting issues, comments and coordinating resolutions
-- producir borradores regulares que puedan ser revisaron por la comunidad
-- comunicar milestones claramente dando oportunidad para dejar comentarios
+* contactar regularmente a lxs participantes para enfocar el desarrollo en los temas importantes
+* rastrear problemas ingresandolos a una herramienta de rastreo (github issues) junto a sus comentarios y posibles soluciones
+* producir borradores regularmente que puedan ser revisados por la comunidad
+* comunicar hitos claramente dando oportunidad para dejar comentarios
 
 ## Fases
 
-Luego de cada fase hay una consulta con la comunidad. 
+El desarrollo tendrá diferentes fases, en donde se irá armando el estándar a partir de consulta con la comunidad y aplicaciones con datos existentes.
 
 ### Fase I
 
-Crear borrador de estándar basado en datos de fase preliminar.
+* Crear borrador del estándar basado en datos de fase preliminar.
+* Instalar herramientas de espacios de discusión y creación colectiva
 
 #### Alcance
 
-#### Outcomes
+A partir de datos existentes y resultados del taller presencial inicial, crear un borrador de datos.
 
-- Borrador zero.
+####  Resultados
+
+* Borrador inicial del acuerdo técnico.
+* Glosario con vocabulario esencial para entender los datos.
+* Guia inicial.
+
 
 ### Fase II
 
 #### Alcance
 
-#### Outcomes
+Modificar protocolo a partir de comentarios de lxs participantes.
 
-* Early adopters experiences which can provide guidance to other stakeholders and feedback for the review stage.
-* Working version of the open standard in the form of a stable version of the guide, vocabulary or format.
-* Guides and documentation that explains how to use the guide, vocabulary or format.
+#### Resultados
+
+* Versión estable del acuerdo técnico, guía y glosario.
+
+
 

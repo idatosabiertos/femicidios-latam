@@ -15,8 +15,8 @@
             "descripcion": "Información sobre la victima del feminicidio. Mucha de esta información es sensible y tendra diferentes niveles de confidencialidad.",
             "$ref": "#/definiciones/Victima"           
         },
-        "perpetrador": {
-            "titulo": "Perpetrador",
+        "imputado": {
+            "titulo": "Imputado",
             "descripcion": "Información sobre quien se sospecha o se asegura que cometio el asesinato.",
             "$ref": "#/definiciones/Imputado"
         },
@@ -25,6 +25,5 @@
             "descripcion": "Información sobre el femicidio en si.",
             "$ref": "#/definiciones/Hecho"
         }
-
     }
 }
