@@ -17,32 +17,34 @@ los datos sensibles podrían no ser publicados pero si serán recolectados para 
 
 ### Sexo 
 
-### Genero
+### IdentidadGenero
 ### Orientación Sexual 
 ### Edad
 
-## Lugar del Nacimiento (Sensible)
-## Nacionalidad
-## Nivel de Educación
-## Ocupación
-## Domicilio (Sensible) 
-## Lugar de Residencia 
-## Discapacidad (Sensible)
-## Condición Migratoria (Sensible)
+### Lugar del Nacimiento (Sensible)
+### Nacionalidad
+### Nivel de Educación
+### Ocupación
+### Domicilio (Sensible) 
+### Lugar de Residencia 
+### Discapacidad (Sensible)
+### Condición Migratoria (Sensible)
 
-## Etnia  (Sensible)
+### Etnia  (Sensible)
     Etnia / población indígena / afrodescendiente
 
-## Medidas de protección
+### Medidas de protección
 Denuncias previas Almacenadas con ID
 
-## Hijos
+### Hijos
     Tiene Hijos/Hijas. Este valor es binario.
 
-## Fuente 
+### Fuente 
     En donde fue recolectado. Policial, Judicial, Fiscalía, Salud.
 
-## Victimario
+
+
+## Imputado
 
 ### ID Persona 
     Identificador en nuestro sistema
@@ -96,11 +98,12 @@ Denuncias previas Almacenadas con ID
 
 ### Fecha 
     Fecha en que sucedió
+
 ### Denuncia previa 
     Tenia denuncia previa al hecho
+
 ### Estado procesal 
     Hubo un proceso de investigación, quien denunció, fecha de apertura, número de personas imputadas, agravantes.
 
-    
 ### Consumado 
     Si fue un hecho consumado o una tentativa.
