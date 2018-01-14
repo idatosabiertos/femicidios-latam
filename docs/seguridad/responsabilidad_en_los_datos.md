@@ -17,4 +17,4 @@ Invertimos recursos básicos para participar activamente y facilitar la comunida
 Establecemos altos estándares de seguridad operacional para nuestro equipo, y les proporcionamos el apoyo que necesitan para cumplir con ellos
 
 
-(Fuente (original en inglés) https://www.theengineroom.org/responsible-data/
+Fuente (original en inglés) https://www.theengineroom.org/responsible-data/
