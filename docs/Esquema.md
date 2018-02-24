@@ -176,97 +176,100 @@ Un modelo conceptual es la representación de un sistema que ayuda a entender co
 
 ### Entidad “Victima”
 
-ID: Identificador en nuestro sistema de la persona. Cada ID es única
-DNI : Documento de Identidad
-Nombre: Nombre completo de la persona.
-Identidad de Género
-Orientación Sexual
-Edad
-Lugar del Nacimiento
-Nacionalidad
-Nivel de Educación
-Ocupación
-Domicilio
-Lugar de Residencia
-Discapacidad
-Condición Migratoria
-Etnia
-Medidas de protección: Son todas medidas cautelares (tobilleras, restricción perimetral, etc)
-Denuncias previas: Almacenadas con ID
-Hijos: Tiene Hijos/Hijas. Este valor es binario.
-Organismo Fuente: En donde fue el dato recolectado. Policial, Judicial, Fiscalía, Salud.
-Rol de quien recolectó datos: Rol de la persona en la fuente que genera estos datos.
+* ID: Identificador en nuestro sistema de la persona. Cada ID es única
+* DNI : Documento de Identidad (*)
+* Nombre: Nombre completo de la persona. (*)
+* Identidad de Género
+* Orientación Sexual (*)
+* Edad
+* Lugar del Nacimiento (*)
+* Nacionalidad (*)
+* Nivel de Educación
+* Ocupación
+* Domicilio (*)
+* Lugar de Residencia
+* Discapacidad (*)
+* Condición Migratoria (*)
+* Etnia (*)
+* Medidas de protección: Son todas medidas cautelares (tobilleras, restricción perimetral, etc)
+* Denuncias previas: Almacenadas con ID
+* Hijos: Tiene Hijos/Hijas. Este valor es binario.
+* Organismo Fuente: En donde fue el dato recolectado. Policial, Judicial, Fiscalía, Salud.
+* Rol de quien recolectó datos: Rol de la persona en la fuente que genera estos datos.
 
 ### Entidad “Victimario”
 
-ID: Identificador en nuestro sistema de la persona. Cada ID es única
-DNI: Documento de Identidad No publicable.
-Nombre: Nombre completo de la persona.
-Identidad de Género
-Orientación Sexual
-Lugar de Nacimiento
-Edad
-Nacionalidad
-Nivel de Educación
-Ocupación
-Domicilio
-Lugar de Residencia
-Condición Migratoria
-Etnia
-Situación jurídica: Procesado, condenado, indagado, etc
-Estado conyugal: sin necesariamente estar relacionado con la víctima
-Permiso de portación de armas
-Pertenencia a una fuerza de seguridad
-Antecedentes: Violencia previa, medidas de protección, otros delitos
-Organismo Fuente: En donde fue recolectado. Policial, Judicial, Fiscalía, Salud.
-Suicidio: Consumado o tentativa de suicidio
+* ID: Identificador en nuestro sistema de la persona. Cada ID es única
+* DNI: Documento de Identidad No publicable. (*)
+* Nombre: Nombre completo de la persona. (*)
+* Identidad de Género
+* Orientación Sexual (*)
+* Lugar de Nacimiento (*)
+* Edad
+* Nacionalidad
+* Nivel de Educación
+* Ocupación
+* Domicilio (*)
+* Lugar de Residencia
+* Condición Migratoria (*)
+* Etnia (*)
+* Situación jurídica: Procesado, condenado, indagado, etc
+* Estado conyugal: sin necesariamente estar relacionado con la víctima
+* Permiso de portación de armas
+* Pertenencia a una fuerza de seguridad
+* Antecedentes: Violencia previa, medidas de protección, otros delitos
+* Organismo Fuente: En donde fue recolectado. Policial, Judicial, Fiscalía, Salud.
+* Suicidio: Consumado o tentativa de suicidio
 
 ### Entidad “Hecho”
 
-ID: Identificador en nuestro sistema del caso. 
-Lugar: Lugar del Hecho.
-Tipo de Víctima: Relación de la víctima de acuerdo al hecho.
-Tipo de Relación: Relación o parentesco entre victimaria y víctima.
-Modalidad: Existencia o no de armas de fuego, armas blancas u otro tipo de objetos
-Agresión Sexual: Hubo agresión sexual
-Fecha: Fecha en que sucedió
-Hora: Hora estimada en que sucedió
-Denuncia previa: Tenía denuncia previa al hecho
-Proceso Judicial: Puede incluir si el proceso esta activo.
-Organismo Fuente
+* ID: Identificador en nuestro sistema del caso. 
+* Lugar: Lugar del Hecho.
+* Tipo de Víctima: Relación de la víctima de acuerdo al hecho.
+* Tipo de Relación: Relación o parentesco entre victimaria y víctima.
+* Modalidad: Existencia o no de armas de fuego, armas blancas u otro tipo de objetos
+* Agresión Sexual: Hubo agresión sexual
+* Fecha: Fecha en que sucedió
+* Hora: Hora estimada en que sucedió
+* Denuncia previa: Tenía denuncia previa al hecho
+* Proceso Judicial: Puede incluir si el proceso esta activo. (*)
+* Organismo Fuente: Desde donde vienen los datos.
 
 ### Entidad “Relación con la víctima”
 
-Tipo de Relación: tipo de relación de acuerdo a la lista de códigos.
-Detalles: Cualquier otra observación.
+* Tipo de Relación: tipo de relación de acuerdo a la lista de códigos.
+* Detalles: Cualquier otra observación.
 
 ### Entidad “Lugar”
 
-Descripción
-Tipo de Lugar
-Dirección
-Ciudad
-Pais
+* Descripción
+* Tipo de Lugar
+* Dirección (*)
+* Ciudad
+* Pais
+* Codigo Postal
 
 ### Entidad “Proceso Judicial”
 
-Estado procesal: Hubo un proceso de investigación
-Denunciante: Quien denunció, 
-Fecha de apertura, 
-Número de personas imputadas, 
-Agravantes
-Partes intervinientes
-Tipo de delito que se categoriza
+* Estado procesal: Hubo un proceso de investigación (*)
+* Denunciante: Quien denunció.  (*)
+* Fecha de apertura, 
+* Número de personas imputadas, 
+* Agravantes (*)
+* Partes intervinientes
+* Tipo de delito que se categoriza
 
 ### Entidad “Organismo Fuente”
 
-Nombre
-Tipo de Organismo: tipo de organismo según lista de códigos.
-Rol Responsable: que rol dentro del organismo genera datos
-Contacto: correo para contactar por datos.
-Casos de Uso
+* Nombre
+* Tipo de Organismo: tipo de organismo según lista de códigos.
+* Rol Responsable: que rol dentro del organismo genera datos
+* Contacto: correo para contactar por datos.
 
-## Posibles usos por parte de actores de sociedad civil:
+
+## Casos de Uso
+
+### Posibles usos por parte de actores de sociedad civil:
 
 * Aplicaciones informativas
 * Aplicaciones para denunciar
@@ -276,7 +279,7 @@ Casos de Uso
 * Para transparencia y rendición de cuentas
 * Programas de prevención
 
-## Posibles usos de actores estatales:
+### Posibles usos de actores estatales:
 
 * Comprensión del fenómeno
 * Diagnóstico/línea de base
