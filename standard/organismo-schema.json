@@ -1,0 +1,30 @@
+{
+    "title": "organismo fuente",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "number",
+            "description": "Identificador único de este organismo en nuestro sistema"
+        },
+        "nombre": {
+            "title": "Nombre",
+            "description": "Nombre del organismo",
+            "type": "string"
+        },
+        "tipoOrganismo": {
+            "title": "Tipo de Organismo",
+            "description": "Tipo de Organismo de acuerdo a la lista de códigos disponible",
+            "type": "string"
+        },
+        "rol": {
+            "title": "Rol de persona responsable de datos",
+            "description": "Rol de la persona dentro del organismo que captura los datos",
+            "type": "string"
+        },
+        "contacto": {
+            "title": "Contacto",
+            "description": "",
+            "type": "string"
+        },
+    }
+}
