@@ -1,0 +1,34 @@
+{
+    "title": "lugar",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "number",
+            "description": "Identificador único de este registro"
+        },
+        "descripcion": {
+            "type": "string",
+            "description": "Descripcion"
+        },
+        "tipo": {
+            "type": "string",
+            "detalles": "Tipo de Lugar"
+        },
+        "direccion": {
+            "type": "string",
+            "detalles": "Dirección"
+        },
+        "ciudad": {
+            "type": "string",
+            "detalles": "Ciudad"
+        },
+        "pais": {
+            "type": "string",
+            "detalles": "Pais"
+        },
+        "codigo{ostal": {
+            "type": "string",
+            "detalles": "Codigo Postal"
+        }
+    }
+}

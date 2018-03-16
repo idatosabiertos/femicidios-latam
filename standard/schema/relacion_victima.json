@@ -1,0 +1,18 @@
+{
+    "title": "relacion",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "number",
+            "description": "Identificador único de este registro"
+        },
+        "tipo": {
+            "type": "string",
+            "description": "Tipo de relación entre victima y victimario"
+        },
+        "detalles": {
+            "type": "string",
+            "detalles": "Observaciones generales"
+        }
+    }
+}

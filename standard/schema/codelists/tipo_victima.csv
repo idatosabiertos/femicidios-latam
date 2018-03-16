@@ -1,3 +1,3 @@
-Nombre,Codigo,Descripcion
-Principal,,
-Vinculado,,
+Codigo,Nombre,Descripcion
+Ppal,Principal,La victima principal del feminicidio
+Vinculado,Vinculado,Victima vinculada al criminen principal

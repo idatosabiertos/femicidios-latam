@@ -1,6 +1,8 @@
-Nombre,Codigo,Descripcion
-golpes,,
-acuchillamiento,,
-disparo de bala,,
-apuñalamiento,,
-quemaduras,,
+Codigo,Nombre,Descripcion
+Golpes,Golpes,Golpes
+Acuchillamiento,
+Disparo,
+Apuñalamiento
+Quemaduras,
+Asfixia,
+Ahogamiento,

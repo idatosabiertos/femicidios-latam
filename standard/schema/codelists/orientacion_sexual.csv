@@ -1,6 +1,8 @@
-Nombre,Codigo,Descripcion
-Heterosexual,HS,
-Bisexual,BS,
-Homosexual,HM,
-Asexual,AS,
-Se desconoce,N,
+Codigo,Nombre,Descripcion
+LE,Lesbiana
+GA,Gay
+HT,Heterosexual,
+BS,Bisexual,
+AS,Asexual,AS,
+OT,Otro
+SD,Se desconoce,

@@ -1,0 +1,16 @@
+Codigo,Nombre,Descripcion
+P,Padre		
+M,Madre		
+PP,Padrastro		
+MM,Madrastra		
+T,Tutor/a		
+E,Esposo/a		
+C,Concubino/a		
+N,Novio/a		
+A,Amante		
+P,Pariente		
+PDH,Persona del hogar	
+CO,Conocido/a		
+D,Desconocido/a		
+O,Otro		
+SD,Se desconoce	

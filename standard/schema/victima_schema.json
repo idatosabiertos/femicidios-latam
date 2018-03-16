@@ -1,0 +1,112 @@
+{
+    "title": "victima",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "number",
+            "description": "Identificador único de este registro"
+        },
+        "dni": {
+            "title": "DNI",
+            "description": "Documento Nacional de Identificación",
+            "type": "string",
+            "access": "privado"
+        },
+        "nombre": {
+            "title": "Nombre",
+            "description": "Nombre de la victima",
+            "type": "string",
+            "access": "privado"
+        },
+        "genero": {
+            "title": "Identidad de Genero",
+            "description": "Identidad de Genero",
+            "type": "string"
+        },
+        "orientacionSexual": {
+            "title": "Orientación Sexual",
+            "description": "Orientación Sexual",
+            "type": "string",
+            "access": "privado"
+        },
+        "edad": {
+            "title": "Edad",
+            "description": "Edad al momento de cometerse el hecho",
+            "type": "number"
+        },
+        "lugarNacimiento": {
+            "title": "Lugar de Nacimiento",
+            "description": "Lugar de Nacimiento",
+            "type": "string",
+            "access": "privado"
+        },
+        "nacionalidad": {
+            "title": "Nacionalidad",
+            "description": "Nacionalidad",
+            "type": "string",
+            "access": "privado"
+        },
+        "educacion": {
+            "title": "Nivel de Educación",
+            "description": "Nivel de Educación",
+            "type": "string"
+        },
+        "ocupacion": {
+            "title": "Ocupación",
+            "description": "Ocupación",
+            "type": "string"
+        },
+        "lugarResidencia": {
+            "title": "Lugar de Residencia",
+            "description": "Lugar de Residencia",
+            "type": "string"
+        },
+        "discapacidad": {
+            "title": "Discapacidad",
+            "type": "string",
+            "access": "privado"
+        },
+        "condicionMigratoria": {
+            "title": "Condición Migratoria",
+            "description": "Condición migratoria",
+            "type": "string",
+            "access": "privado"
+        },
+        "medidasProteccion": {
+            "type": "string",
+            "description": "Medidas cautelares (tobilleras, restricción perimetral, etc)"
+        },
+        "denunciasPrevias": {
+            "type": "string"
+        },
+        "hijos": {
+            "title": "Tiene hijos?",
+            "type": "boolean"
+        },
+        "generador": {
+            "title": "Organismo generador de datos",
+            "description": "Información para identificar al organismo que genera los datos" ,
+            "type": "object",
+            "properties": {
+                "nombre": {
+                    "title": "Organismo en donde los datos se están generando",
+                    "type": "string"
+                },
+                "tipoOrganismo": {
+                    "title": "Tipo de Organismo",
+                    "type": "string"
+                },
+                "rol": {
+                    "title": "Rol de quien genera los datos",
+                    "type": "string"
+                },
+                "contacto": {
+                    "title": "Contacto",
+                    "type": "string"
+                },
+            },
+            "required": 
+                0: "nombre"
+        }
+    }
+}

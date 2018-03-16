@@ -1,0 +1,43 @@
+{
+    "title": "proceso judicial",
+    "type": "object",
+    "properties": {
+        "estado": {
+            "type": "number",
+            "title": "Estado procesal",
+            "description": "Hubo un proceso de investigación"
+        },
+        "denunciante": {
+            "title": "Denunciante",
+            "description": "Documento Nacional de Identificación",
+            "type": "string",
+            "access": "privado"
+        },
+        "fechaApertura": {
+            "title":"Fecha de apertura",
+            "description": "Fecha de apertura",
+            "type": "string"
+        },
+        "personasOmputadas": {
+            "title":"Número de personas imputadas",
+            "description": "Número de personas imputadas",
+            "type": "string"
+        },
+        "agravantes": {
+            "title":"Agravantes",
+            "description": "",
+            "type": "string",
+            "access": "private"
+        },
+        "partes": {
+            "title": "Partes intervenientes",
+            "description": "Partes intervenientes",
+            "type": "string"
+        },
+        "tipoDelito": {
+            "title":"Tipo de delito",
+            "description": "Tipo de delito que se categoriza",
+            "type": "string"
+        }
+    }
+}
