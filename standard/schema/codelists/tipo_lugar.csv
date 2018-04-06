@@ -1,9 +1,9 @@
 Codigo,Nombre,Descripcion
-CVI,Casa Victima	
-CIM,Casa Victimario	
-CAM,Casa Ambos	
-CFA,Casa Familiar	
-CLL,Calle	
-OTR,Otro	
-SD,Se Desconoce	
-PDT,Puesto de trabajo	
+1,Casa victima	
+2,Casa victimario
+3,Casa ambos
+4,Casa familiar
+5,Calle
+6,Otro
+7,Se desconoce
+8,Puesto de trabajo

@@ -1,8 +1,8 @@
 Codigo,Nombre,Descripcion
-FuPol,Policial,Organismo Policial
-FuJud,Judicial,Organismo Judicial
-FuFis,Fiscalia,Fiscalia
-FuSal,Salud,Institucion de Salud
-FMD,Ministerio de Desarrollo Social,Ministerio de Desarrollo Social
-FJP,Justicia provincial,Justicia provincial
-FPF,Ministerio publico fiscal, Ministerio publico fiscal
+1,Policial,Organismo Policial
+2,Judicial,Organismo Judicial
+3,Fiscalia,Fiscalia
+4,Salud,Institucion de Salud
+5,Ministerio de Desarrollo Social,Ministerio de Desarrollo Social
+6,Justicia provincial,Justicia provincial
+7,Ministerio publico fiscal, Ministerio publico fiscal

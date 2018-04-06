@@ -1,16 +1,16 @@
 Codigo,Nombre,Descripcion
-P,Padre		
-M,Madre		
-PP,Padrastro		
-MM,Madrastra		
-T,Tutor/a		
-E,Esposo/a		
-C,Concubino/a		
-N,Novio/a		
-A,Amante		
-P,Pariente		
-PDH,Persona del hogar	
-CO,Conocido/a		
-D,Desconocido/a		
-O,Otro		
-SD,Se desconoce	
+1,Padre,Victimario es padre de la victima.
+2,Madre,Victimario es madre de la victima.
+3,Padrastro, Victimario es padrastro de la victima.
+4,Madrastra, Victimario es madrastra de la victima.
+5,Tutor/a, Victimario es tutor/a de la victima.
+6,Esposo/a,Victimario es esposo/a de la victima.
+7,Concubino/a, Victimario es concubino/a de la victima.
+8,Novio/a, Victimario es novio/a de la victima.
+9,Amante,Victimario es amante de la victima.
+10,Pariente,Victimario es pariente de la victima.
+11,Persona del hogarVictimario es empleado/a de la victima.
+12,Conocido/a,Victimario es conocido/a de la victima.
+13,Desconocido/a, Victimario no es conocido/ade la victima.
+14,Otro,Otro tipo de relación.
+15,Se desconoce,Se desconoce el tipo de relación.

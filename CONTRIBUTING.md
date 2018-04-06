@@ -13,3 +13,17 @@ Publicar cualquier problema o comentarios en el Issues de este repositorio.
 3. Commitear los cambios en su propio branch
 4. Push su trabajo en su Fork
 5. Enviar un Pull Request para revisar los cambios
+
+
+## Contribuidores
+
+Gabriela Rodriguez
+Silvana Fumega
+Fabrizio Scrollini
+Paulina Bustos
+Helena Suarez
+Romina Napiloti
+Rosana Copello
+
+Gabriel Mercado (Ministerio de Justicia de ARgentina)
+Eva Giberti (Ministerio de Justicia de ARgentina)

@@ -1,8 +1,8 @@
 Codigo,Nombre,Descripcion
-LE,Lesbiana
-GA,Gay
-HT,Heterosexual,
-BS,Bisexual,
-AS,Asexual,AS,
-OT,Otro
-SD,Se desconoce,
+1,Lesbiana,
+2,Gay,
+3,Heterosexual,
+4,Bisexual,
+5,Asexual,AS,
+6,Otro,
+7,Se desconoce,

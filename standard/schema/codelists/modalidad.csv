@@ -1,8 +1,7 @@
 Codigo,Nombre,Descripcion
-Golpes,Golpes,Golpes
-Acuchillamiento,
-Disparo,
-Apuñalamiento
-Quemaduras,
-Asfixia,
-Ahogamiento,
+1,Golpes,Muerte por golpes.
+2,Disparo de bala,Muerte por disparo de bala.
+3,Apuñalamiento,Muerte por apuñalamiento.
+4,Quemaduras,Muerte por quemaduras.
+5,Asfixia,Muerte por asfixia.
+6,Ahogamiento,Muerte por ahogamiento.

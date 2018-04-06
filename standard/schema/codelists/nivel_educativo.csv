@@ -1,12 +1,12 @@
 Codigo,Nombre,Descripcion
-0,Educación de la primera infancia	
-1,Menos que primaria	
-2,Educación primaria	
-3,Educación secundaria baja	
-4,Educación secundaria alta	
-5,Educación postsecundaria no terciaria	
-6,Educación terciaria de ciclo corto	
-7,Grado en educación terciaria o nivel equivalente	
-8,Nivel de maestría, especialización o equivalente	
-9,Nivel de doctorado o equivalente	
-0,Se desconoce
+0,Educación de la primera infancia
+1,Menos que primaria
+2,Educación primaria
+3,Educación secundaria baja
+4,Educación secundaria alta
+5,Educación postsecundaria no terciaria
+6,Educación terciaria de ciclo corto
+7,Grado en educación terciaria o nivel equivalente
+8,Nivel de maestría, especialización o equivalente
+9,Nivel de doctorado o equivalente
+10,Se desconoce

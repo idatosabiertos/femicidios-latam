@@ -1,8 +1,8 @@
 Codigo,Nombre,Descripcion
-HC,Cis Hombre,Hombre identificado con el genero que se le asigno al nacer
-MC,Cis Mujer, Mujer identificada con el genero que se le asigno al nacer
-NB,No Binario,Persona no identificada con genero masculino o femenino
-OT,Otro,Otra categoria
-SD,Se Desconoce,Se Desconoce
-MT,Mujer Trans,Mujer transgenero
-HT,Hombre Trans,Hombre transgenero
+1,Cis Hombre,Hombre identificado con el genero que se le asigno al nacer.
+2,Cis Mujer, Mujer identificada con el genero que se le asigno al nacer.
+3,No Binario,Persona no identificada con genero masculino o femenino.
+4,Otro,Otra identificación.
+5,Se Desconoce,Se desconoce el genero.
+6,Mujer Trans,Mujer que no se identifica con el genero asignado al nacer.
+7,Hombre Trans,Hombre que no se identifica con el genero asignado al nacer.

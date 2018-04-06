@@ -1,6 +1,7 @@
 Codigo,Nombre,Descripcion
-IND,Indagado	
-PRO,Procesado	
-CON,Condenado	
-SD,Se desconoce	
-FUG,Fugitivo
+1,Indagado
+2,Procesado
+3,Condenado
+4,Fugitivo
+5,En libertad Condicional
+6,Se desconoce
