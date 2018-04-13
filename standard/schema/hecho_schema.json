@@ -10,8 +10,8 @@
         },
         "lugar": {
             "title": "Lugar",
-            "description": "Tipo de lugar del hecho según lista de códigos.",
-            "type": "string",
+            "description": "Lugar del hecho.",
+            "type": "object",
             "access": "public"
         },
         "tipoDeVictima": {

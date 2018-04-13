@@ -1,15 +1,19 @@
 # TODO
 
+- pasar todo al schema en github (tambien la lista de codigos)
+
 - Definir como se crean lista de codigos
 - Chequear consistencia de idioma en todos lados
-- pasar todo al schema en github (tambien la lista de codigos)
 - pasar los datos de argentina a este estandar.
+
+## dudas
 
 - discapacidad deberia ser una lista de codigos? 
     - https://www.disabled-world.com/disability/types/
 - etnia deberia ser una lista de codigos?
 
-meeting
+## siguiente reunion
+
 - how to engage community
 - a website?
 

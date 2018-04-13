@@ -3,32 +3,39 @@
     "type": "object",
     "properties": {
         "id": {
-            "type": "number",
-            "description": "Identificador único de este registro"
+            "title": "ID",
+            "description": "Identificador único de este registro en el sistema.",
+            "type": "number"
         },
         "descripcion": {
-            "type": "string",
-            "description": "Descripcion"
+            "title": "Descripción",
+            "description": "Descripción del lugar",
+            "type": "string"
         },
         "tipo": {
-            "type": "string",
-            "detalles": "Tipo de Lugar"
+            "title": "Tipo de Lugar",
+            "description": "Tipo de Lugar según lista de códigos.",
+            "type": "string"
         },
         "direccion": {
-            "type": "string",
-            "detalles": "Dirección"
+            "title": "Dirección",
+            "description": "Dirección.",
+            "type": "string"
         },
         "ciudad": {
-            "type": "string",
-            "detalles": "Ciudad"
+            "title": "Ciudad",
+            "description": "Ciudad.",
+            "type": "string"
         },
         "pais": {
-            "type": "string",
-            "detalles": "Pais"
+            "title": "País",
+            "description": "Paíss.",
+            "type": "string"
         },
-        "codigo{ostal": {
-            "type": "string",
-            "detalles": "Codigo Postal"
+        "codigoPostal": {
+            "title": "Código Postal",
+            "description": "Código Postal.",
+            "type": "string"
         }
     }
 }
