@@ -3,52 +3,53 @@
     "type": "object",
     "properties": {
         "id": {
-            "type": "number",
-            "description": "Identificador único de este registro"
+            "title": "ID",
+            "description": "Identificador único de este registro en el sistema.",
+            "type": "number"
         },
         "dni": {
             "title": "DNI",
-            "description": "Documento Nacional de Identificación",
+            "description": "Documento nacional de identificación.",
             "type": "string",
-            "access": "privado"
+            "access": "private"
         },
         "nombre": {
             "title": "Nombre",
-            "description": "Nombre del victimario",
+            "description": "Nombre completo de la persona.",
             "type": "string",
-            "access": "privado"
+            "access": "private"
         },
         "genero": {
             "title": "Identidad de Genero",
-            "description": "Identidad de Genero",
+            "description": "Identidad de genero de la persona según lista de códigos.",
             "type": "string"
         },
         "orientacionSexual": {
             "title": "Orientación Sexual",
-            "description": "Orientación Sexual",
+            "description": "Orientación Sexual según lista de códigos",
             "type": "string",
-            "access": "privado"
+            "access": "private"
         },
         "edad": {
             "title": "Edad",
-            "description": "Edad al momento de cometerse el hecho",
+            "description": "Edad al momento de cometerse el hecho.",
             "type": "number"
         },
         "lugarNacimiento": {
             "title": "Lugar de Nacimiento",
-            "description": "Lugar de Nacimiento",
+            "description": "Lugar de nacimiento",
             "type": "string",
-            "access": "privado"
+            "access": "private"
         },
         "nacionalidad": {
             "title": "Nacionalidad",
             "description": "Nacionalidad",
             "type": "string",
-            "access": "privado"
+            "access": "private"
         },
         "educacion": {
             "title": "Nivel de Educación",
-            "description": "Nivel de Educación",
+            "description": "Nivel de educación según lista de códigos.",
             "type": "string"
         },
         "ocupacion": {
@@ -56,46 +57,52 @@
             "description": "Ocupación",
             "type": "string"
         },
+        "domicilio":{
+            "title": "Domicilio",
+            "description": "Domicilio de la victima.",
+            "type": "string",
+            "access": "private"
+        },
         "lugarResidencia": {
             "title": "Lugar de Residencia",
-            "description": "Lugar de Residencia",
+            "description": "Lugar de residencia.",
             "type": "string"
         },
         "condicionMigratoria": {
             "title": "Condición Migratoria",
             "description": "Condición migratoria",
             "type": "string",
-            "access": "privado"
+            "access": "private"
         },
         "etnia": {
             "title": "Etnia",
             "description": "Etnia",
             "type": "string",
-            "access": "privado"
+            "access": "private"
         },
         "situacionJuridica": {
             "title": "Situación juridica",
-            "description": "Situación juridica: procesado, condenado, indagado, etc",
+            "description": "Situación juridica: procesado, condenado, indagado, etc según lista de códigos.",
             "type": "string"
         },
         "estadoConyugal": {
             "title":"Estado conyugal",
-            "description": "Estado conyugal, sin necesario estar relacionado con la victima.",
+            "description": "Estado conyugal, sin necesario estar relacionado con la victima según lista de códigos.",
             "type": "string"
         },
         "permisoPortacionArmas": {
             "title":"Permiso de portación de armas",
-            "description": "Permiso de portaci´øn de armas",
+            "description": "Permiso de portación de armas",
             "type": "string"
         },
         "pertenenciaFuerzaSeguridad": {
             "title":"Pertenencia a Fuerzas de Seguridad",
-            "description": "Pertenencia a Fuerzas de Seguridad",
+            "description": "Pertenencia a fuerzas de seguridad",
             "type": "string"
         },
         "antecedentes": {
             "title":"Antecedentes",
-            "description": "Antecedentes de violencia previa, medidas de protección, otros delitos",
+            "description": "Antecedentes de violencia previa, medidas de protección, otros delitos.",
             "type": "string"
         },
         "suicidio": {
@@ -109,24 +116,29 @@
             "type": "object",
             "properties": {
                 "nombre": {
-                    "title": "Organismo en donde los datos se están generando",
+                    "title": "Organismo fuente",
+                    "description": "Organismo en donde los datos se están generando.",
                     "type": "string"
                 },
                 "tipoOrganismo": {
                     "title": "Tipo de Organismo",
+                    "description": "Tipo de organismo según lista de códigos.",
                     "type": "string"
                 },
                 "rol": {
-                    "title": "Rol de quien genera los datos",
+                    "title": "Rol",
+                    "description": "Rol de la persona que colecta los datos en el organismo.",
                     "type": "string"
                 },
                 "contacto": {
                     "title": "Contacto",
+                    "description": "Contacto del organismo o persona que recolecto los datos.",
                     "type": "string"
                 },
             },
-            "required": 
-                0: "nombre"
-        }
+        },
+        "required": [
+            "nombre"
+        ]
     }
 }

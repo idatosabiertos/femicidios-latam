@@ -3,8 +3,9 @@
     "type": "object",
     "properties": {
         "id": {
-            "type": "number",
-            "description": "Identificador único de este registro en el sistema."
+            "title": "ID",
+            "description": "Identificador único de este registro en el sistema.",
+            "type": "number"
         },
         "dni": {
             "title": "DNI",
@@ -20,12 +21,12 @@
         },
         "genero": {
             "title": "Identidad de Genero",
-            "description": "Identidad de genero según lista de códigos..",
+            "description": "Identidad de genero de la persona según lista de códigos.",
             "type": "string"
         },
         "orientacionSexual": {
             "title": "Orientación Sexual",
-            "description": "Orientación Sexual según lista de códigos.",
+            "description": "Orientación sexual según lista de códigos.",
             "type": "string",
             "access": "private"
         },
@@ -36,7 +37,7 @@
         },
         "lugarNacimiento": {
             "title": "Lugar de Nacimiento",
-            "description": "Lugar de Nacimiento",
+            "description": "Lugar de nacimiento",
             "type": "string",
             "access": "private"
         },
