@@ -22,8 +22,8 @@
         },
         "tipoDeRelacion": {
             "title": "Tipo de Relación",
-            "description": "Relación o parentesco entre victima y victimario, según lista de códigos.",
-            "type": "string",
+            "description": "Relación o parentesco entre victima y victimario.",
+            "type": "object",
             "access": "public"
         },
         "modalidad": {

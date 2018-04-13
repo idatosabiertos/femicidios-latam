@@ -3,16 +3,19 @@
     "type": "object",
     "properties": {
         "id": {
-            "type": "number",
-            "description": "Identificador único de este registro"
+            "title": "ID",
+            "description": "Identificador único de este registro en el sistema.",
+            "type": "number"
         },
         "tipo": {
-            "type": "string",
-            "description": "Tipo de relación entre victima y victimario"
+            "title": "Tipo de relación",
+            "description": "Tipo de relación entre victima y victimario,  según lista de códigos.",
+            "type": "string"
         },
         "detalles": {
-            "type": "string",
-            "detalles": "Observaciones generales"
+            "title": "Detalles",
+            "detalles": "Observaciones generales sobre la relación.",
+            "type": "string"
         }
     }
 }
