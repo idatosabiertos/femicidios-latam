@@ -6,17 +6,17 @@
 - Chequear consistencia de idioma en todos lados
 - pasar los datos de argentina a este estandar.
 
-## dudas
+## Dudas
 
 - discapacidad deberia ser una lista de codigos? 
     - https://www.disabled-world.com/disability/types/
 - etnia deberia ser una lista de codigos?
 
-## siguiente reunion
+## Siguiente Reunión
 
 - sitio web
 
-## Conferencias posibles
+## Conferencias Posibles
 
 ### Taller Buenos Aires
 

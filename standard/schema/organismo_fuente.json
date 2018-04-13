@@ -4,19 +4,23 @@
     "type": "object",
     "properties": {
         "nombre": {
-            "title": "Organismo en donde los datos se están generando",
+            "title": "Organismo",
+            "description": "Organismo donde se generan los datos.",
             "type": "string"
         },
         "tipoOrganismo": {
-            "title": "Tipo de Organismo",
+            "title": "Tipo de organismo",
+            "description": "Tipo de organismo según lista de códigos.",
             "type": "string"
         },
         "rol": {
-            "title": "Rol de quien genera los datos",
+            "title": "Rol",
+            "description": "Rol de quien recolecta los datos.",
             "type": "string"
         },
         "contacto": {
             "title": "Contacto",
+            "description": "Contacto de la organización o persona.",
             "type": "string"
         }
     }
