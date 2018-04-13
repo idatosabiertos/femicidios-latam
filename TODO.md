@@ -18,6 +18,7 @@
 - mandar correo a grupo 
     - hacer lista de correo.
     - información sobre que situación estamos.
+- hablar sobre metodologia/contenido taller en buenos aires
 
 ## Conferencias Posibles
 
@@ -35,3 +36,7 @@ Posibles propuestas:
 * estándar en si
 * proceso de armado de redes
 * ministerios de justicia
+
+### OGP Julio 2018
+
+Sil ya mando propuesta.
