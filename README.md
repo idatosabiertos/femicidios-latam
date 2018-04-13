@@ -2,17 +2,21 @@
 
 Repositorio para creación de estandar sobre datos de femicidios en Latinoamerica.
 
-# Esquema de Datos
+## Esquema de Datos
 
-[Puesta en común de datos sobre feminicidios en diferentes paises en latinoamerica](docs/Esquema.md).
+Puesta en común de [datos sobre feminicidios](docs/introduccion.md) en diferentes paises en latinoamerica.
 
-# Herramientas de y aplicaciones de apoyo a situaciones de violencia
+## Proyectos Interesantes
 
-En el archivo apps.xlsx estamos recolectando aplicaciones moviles y web para combatir de una u otra manera violencia contra la mujer.
+* Mapa de feminicidios de México:  [Feminicidios recolectados de datos publicados en prensa en 2016 y 2017 en Mexico](https://aristeguinoticias.com/2104/mexico/crean-en-google-mapa-de-feminicidios-en-mexico-interactivo/).
+* Registro de feminicidios en Uruguay: [Registro no oficial de feminicidios en Uruguay](https://sites.google.com/view/feminicidiouruguay). 
+* [Feminicidios en Uruguay](https://www.facebook.com/notes/feminicidio-uruguay/femicidiofeminicidio/1655396977883366/).
+* [Feminicidio.net](https://informes.feminicidio.net/listado-de-feminicidios-y-otros-asesinatos-de-mujeres-en-2018/) (el registro geofeminicidio no está funcionando en este momento, pero es una base de datos con alrededor de 50 campos por caso).
+* [Información sistematizada de violencia de Paraguay](http://informativomujer.org.py/cuadros/), que incluye datos sobre feminicidios.
+* [Propuesta de medición de femicidios](https://www.mpf.gob.ar/ufem/files/2017/11/UFEM_Medici%C3%B3nFemicidios2017.pdf) del Ministerio Público Fiscal de Argentina.
 
-# Recursos en la red para construcción de tecnologia
+## Recursos en la red para construcción de tecnologia
 
-* Tech Safety: https://www.techsafety.org/
 * http://arrow.org.my/publication/arrow-change-sexuality-srhr-internet-spanish/
 * https://chupadados.codingrights.org/es/menstruapps-como-transformar-sua-menstruacao-em-dinheiro-para-os-outros/
 * https://www.techsafety.org/appsafetycenter
