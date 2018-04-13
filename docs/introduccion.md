@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Este documento intenta dar una detallada descripción de un borrador del protocolo de datos de feminicidios para Latinoamérica. Para esto hemos utilizado datos de bases ya existentes de Argentina, México, Costa Rica y otros paises, asi como notas de las discusiones en la reunión presencial en Costa Rica de Agosto del 2017.
+Este documento intenta dar una detallada descripción de un borrador del protocolo de datos de feminicidios para Latinoamérica. Para esto hemos utilizado datos de bases ya existentes de Argentina, México, Costa Rica y otros paises, así como notas de las discusiones en la reunión presencial en Costa Rica de Agosto del 2017.
 
 La intención es crear un espacio de discusión para construcción colectiva de este protocolo. Necesitamos comentarios así como preguntas para cada parte del mismo.
 
@@ -176,7 +176,7 @@ Tipo de lugar del hecho
 
 Un modelo conceptual es la representación de un sistema que ayuda a entender como todos los componentes se relacionan entre si. En este caso tendremos un diagrama con los diferentes conceptos que necesitamos capturar en un feminicidio. Cada dato dentro de cada concepto tendrá diferentes niveles de acceso dependiendo de la intención en su uso.
 
-(*) Datos sensibles con asterisko.
+(*) Datos sensibles con asterisco.
 
 ### Entidad “Victima”
 
