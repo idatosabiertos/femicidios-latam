@@ -5,7 +5,8 @@
         "id": {
             "title": "ID",
             "description": "Identificador único de este registro en el sistema.",
-            "type": "number"
+            "type": "number",
+            "access": "public"
         },
         "dni": {
             "title": "DNI",
@@ -22,7 +23,8 @@
         "genero": {
             "title": "Identidad de Genero",
             "description": "Identidad de genero de la persona según lista de códigos.",
-            "type": "string"
+            "type": "string",
+            "access": "public"
         },
         "orientacionSexual": {
             "title": "Orientación Sexual",
@@ -33,7 +35,8 @@
         "edad": {
             "title": "Edad",
             "description": "Edad al momento de cometerse el hecho.",
-            "type": "number"
+            "type": "number",
+            "access": "public"
         },
         "lugarNacimiento": {
             "title": "Lugar de Nacimiento",
@@ -50,12 +53,14 @@
         "educacion": {
             "title": "Nivel de Educación",
             "description": "Nivel de educación según lista de códigos.",
-            "type": "string"
+            "type": "string",
+            "access": "public"
         },
         "ocupacion": {
             "title": "Ocupación",
             "description": "Ocupación",
-            "type": "string"
+            "type": "string",
+            "access": "public"
         },
         "domicilio":{
             "title": "Domicilio",
@@ -66,7 +71,8 @@
         "lugarResidencia": {
             "title": "Lugar de Residencia",
             "description": "Lugar de residencia.",
-            "type": "string"
+            "type": "string",
+            "access": "public"
         },
         "condicionMigratoria": {
             "title": "Condición Migratoria",
@@ -83,32 +89,38 @@
         "situacionJuridica": {
             "title": "Situación juridica",
             "description": "Situación juridica: procesado, condenado, indagado, etc según lista de códigos.",
-            "type": "string"
+            "type": "string",
+            "access": "public"
         },
         "estadoConyugal": {
             "title":"Estado conyugal",
             "description": "Estado conyugal, sin necesario estar relacionado con la victima según lista de códigos.",
-            "type": "string"
+            "type": "string",
+            "access": "public"
         },
         "permisoPortacionArmas": {
             "title":"Permiso de portación de armas",
             "description": "Permiso de portación de armas",
-            "type": "string"
+            "type": "string",
+            "access": "public"
         },
         "pertenenciaFuerzaSeguridad": {
             "title":"Pertenencia a Fuerzas de Seguridad",
             "description": "Pertenencia a fuerzas de seguridad",
-            "type": "string"
+            "type": "string",
+            "access": "public"
         },
         "antecedentes": {
             "title":"Antecedentes",
             "description": "Antecedentes de violencia previa, medidas de protección, otros delitos.",
-            "type": "string"
+            "type": "string",
+            "access": "public"
         },
         "suicidio": {
             "title":"Suicidio",
             "description": "Suicidio, consumado o tentativa de suicidio.",
-            "type": "string"
+            "type": "string",
+            "access": "public"
         },
         "generador": {
             "title": "Organismo generador de datos",
@@ -118,22 +130,26 @@
                 "nombre": {
                     "title": "Organismo fuente",
                     "description": "Organismo en donde los datos se están generando.",
-                    "type": "string"
+                    "type": "string",
+                    "access": "public"
                 },
                 "tipoOrganismo": {
                     "title": "Tipo de Organismo",
                     "description": "Tipo de organismo según lista de códigos.",
-                    "type": "string"
+                    "type": "string",
+                    "access": "public"
                 },
                 "rol": {
                     "title": "Rol",
                     "description": "Rol de la persona que colecta los datos en el organismo.",
-                    "type": "string"
+                    "type": "string",
+                    "access": "public"
                 },
                 "contacto": {
                     "title": "Contacto",
                     "description": "Contacto del organismo o persona que recolecto los datos.",
-                    "type": "string"
+                    "type": "string",
+                    "access": "public"
                 },
             },
         },

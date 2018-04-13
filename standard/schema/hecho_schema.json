@@ -1,41 +1,94 @@
 {
-    "title": "",
+    "title": "hecho",
     "type": "object",
     "properties": {
         "id": {
-            "type": "number"
+            "title": "ID",
+            "description": "Identificador único de este registro en el sistema.",
+            "type": "number",
+            "access": "public"
         },
         "lugar": {
-            "type": "string"
+            "title": "Lugar",
+            "description": "Tipo de lugar del hecho según lista de códigos.",
+            "type": "string",
+            "access": "public"
         },
-        "vinculado": {
-            "type": "string"
+        "tipoDeVictima": {
+            "title": "Tipo de Victima",
+            "description": "Relación de victima de acuerdo al hecho.",
+            "type": "string",
+            "access": "public"
+        },
+        "tipoDeRelacion": {
+            "title": "Tipo de Relación",
+            "description": "Relación o parentesco entre victima y victimario, según lista de códigos.",
+            "type": "string",
+            "access": "public"
         },
         "modalidad": {
-            "type": "string"
+            "title": "Modalidad",
+            "description": "Existencia o no de armas de fuego, armas blancas u otro tipo de objetos.",
+            "type": "string",
+            "access": "public"
         },
+        "agresionSexual": {
+            "title": "Agresión Sexual",
+            "description": "Si hubo agresión sexual o no.",
+            "type": "boolean",
+            "access": "public"
+        },        
         "fecha": {
-            "type": "date"
+            "title": "Fecha",
+            "description": "Fecha y hora estimada en que sucedió el hecho.",
+            "type": "datetime",
+            "access": "public"
         },
         "denunciaPrevia": {
-            "type": "string"
+            "title": "Denuncia Previa",
+            "description": "El victimario tenia denuncia previa hecha por la victima.",
+            "type": "boolean",
+            "access": "public"
         },
-        "estadoProcesal": {
-            "type": "string"
+        "procesoJudicial": {
+            "title": "Proceso Judicial",
+            "description": "Incluye si el proceso está activo o no.",
+            "type": "boolean",
+            "access": "private"
         },
-        "suicidio": {
-            "type": "boolean"
-        },
-        "consumado": {
-            "type": "string"
-        },
-        "fuente": {
+        "generador": {
+            "title": "Organismo generador de datos",
+            "description": "Información para identificar al organismo que genera los datos" ,
             "type": "object",
             "properties": {
-                "institucion": {
-                    "type": "string"
-                }
-            }
-        }
+                "nombre": {
+                    "title": "Organismo fuente",
+                    "description": "Organismo en donde los datos se están generando.",
+                    "type": "string",
+                    "access": "public"
+                },
+                "tipoOrganismo": {
+                    "title": "Tipo de Organismo",
+                    "description": "Tipo de organismo según lista de códigos.",
+                    "type": "string",
+                    "access": "public"
+                },
+                "rol": {
+                    "title": "Rol",
+                    "description": "Rol de la persona que colecta los datos en el organismo.",
+                    "type": "string",
+                    "access": "public"
+                },
+                "contacto": {
+                    "title": "Contacto",
+                    "description": "Contacto del organismo o persona que recolecto los datos.",
+                    "type": "string",
+                    "access": "public"
+                },
+            },
+        },
+        "required": [
+            "lugar"
+        ]
     }
 }
