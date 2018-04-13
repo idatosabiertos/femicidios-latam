@@ -14,8 +14,7 @@
 
 ## siguiente reunion
 
-- how to engage community
-- a website?
+- sitio web
 
 ## Conferencias posibles
 
