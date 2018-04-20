@@ -1,4 +1,4 @@
-numero,edad,identidad_genero,tipo_victima,lugar_hecho,modalidad_comisiva,fecha_hecho
+nmero,edad,identidad_genero,tipo_victima,lugar_hecho,modalidad_comisiva,fecha_hecho
 624,28,Mujer,Principal ,Río Negro,Se desconoce,Se desconoce
 620,27,Mujer,Principal ,Río Negro,Golpes,Se desconoce
 612,,Mujer,Principal ,Santiago del Estero,Se desconoce,Se desconoce
@@ -770,4 +770,3 @@ numero,edad,identidad_genero,tipo_victima,lugar_hecho,modalidad_comisiva,fecha_h
 117,45,Mujer,Principal,Salta,Disparo de bala,12/30/2012
 421,50,Mujer,Principal,Córdoba,Acuchillamiento,12/17/2012
 437,32,Mujer,Principal,Córdoba,Acuchillamiento,12/16/2012
-0,,,,,,

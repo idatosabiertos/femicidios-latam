@@ -1,0 +1,15 @@
+{
+  "hecho":{
+    "id": "numero",
+    "tipoDeVictima": "tipo_victima",
+    "fecha": "fecha_hecho",
+    "modalidad": "modalidad",
+    "generador": {
+        "nombre": "ministerio de justicia",
+        "tipoOrganismo": "8"
+    },
+  "victima": {
+    "genero": "identidad_genero",
+    "edad": "edad"
+  }
+}

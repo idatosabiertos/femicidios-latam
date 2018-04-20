@@ -5,3 +5,7 @@ Codigo,Nombre,Descripcion
 4,Quemaduras,Muerte por quemaduras.
 5,Asfixia,Muerte por asfixia.
 6,Ahogamiento,Muerte por ahogamiento.
+7,Ataladramiento,Ataladramiento.
+8,Atropellamiento,Atropellamiento.
+9,Estrangulamiento,Estrangulamiento.
+10,Otro,Otro.
