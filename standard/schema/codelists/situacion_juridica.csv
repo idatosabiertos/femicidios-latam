@@ -1,7 +1,11 @@
 Codigo,Nombre,Descripcion
-1,Indagado
-2,Procesado
-3,Condenado
-4,Fugitivo
-5,En libertad Condicional
-6,Se desconoce
+1,Imputado
+2,Indagado
+3,Procesado
+4,Acusado
+5,Condenado
+6,Fugitivo
+7,En Libertad Condicional
+8,Presion Preventiva
+9,Otro
+10,Se desconoce

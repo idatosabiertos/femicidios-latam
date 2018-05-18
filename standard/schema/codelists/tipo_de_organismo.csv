@@ -1,9 +1,11 @@
 Codigo,Nombre,Descripcion
-1,Policial,Organismo Policial
-2,Judicial,Organismo Judicial
+1,Policial,Organismo Policial incluyendo servicios de emergencia.
+2,Judicial,Organismo Judicial a nivel nacional.
 3,Fiscalia,Fiscalia
 4,Salud,Institucion de Salud
 5,Ministerio de Desarrollo Social,Ministerio de Desarrollo Social
-6,Justicia provincial,Justicia provincial
+6,Justicia provincial,Poder Judicial a Nivel Provincial
 7,Ministerio publico fiscal, Ministerio publico fiscal
-8,Ministerio de justiica, Ministerio de Justicia
+8,Ministerio de Justicia, Ministerio de Justicia
+9,Medicina, Medicina Legal o Forense
+10,Secretaría de la Mujer, Ministerio o Secretaria de la Mujer

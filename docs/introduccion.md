@@ -284,17 +284,19 @@ Un modelo conceptual es la representación de un sistema que ayuda a entender co
 * Para transparencia y rendición de cuentas
 * Programas de prevención
 
+
 ### Posibles usos de actores estatales:
 
 * Comprensión del fenómeno
 * Diagnóstico/línea de base
 * Diseño/toma de decisiones/ M&E
 * Asignación de presupuesto (asignación y localización)
-* Mejora en la cobertura de los servicios
+* Adaptar la cobertura de servicios para que sean eficazes
 * Segmentación de población para atención focalizada
 * Enmiendas a legislación existente o sanción de nuevas leyes
-* Formación de personal y continua de operadores
+* Formación continua de personal y continua de operadores
 * Creación de Programas Sociales
+* Identificar la necesidad de elaborar guías o protocolos (de reacción/acción/respuesta ante una situación de crisis/emergencia, entre otros).
 
 ## Ejemplos de Uso de datos
 

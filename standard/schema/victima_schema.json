@@ -54,7 +54,7 @@
         },
         "ocupacion": {
             "title": "Ocupación",
-            "description": "Ocupación de la persona.",
+            "description": "Ocupación de la persona según Clasificación Internacional Uniforme de Ocupaciones",
             "type": "string"
         },
         "domicilio":{

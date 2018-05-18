@@ -1,9 +1,11 @@
 Codigo,Nombre,Descripcion
-1,Casa victima	
-2,Casa victimario
-3,Casa ambos
-4,Casa familiar
-5,Calle
-6,Otro
-7,Se desconoce
-8,Puesto de trabajo
+1,Domicilio victima
+2,Domicilio victimario
+3,Domicilio particular
+4,Espacio Abierto, Calle o transporte público.
+5,Puesto de Trabajo
+6,Escuelas u otras instituciones educativas
+7,Prisiones, Instituciones penales o correcionales
+8,Institucion,Entornos de atención institucional (incluyen: hospitales, instalaciones psiquiátricas, hogares de atención residencial o jubilación, casas de detención preventiva y otras instalaciones de atención institucional).
+9,Otro
+10,Se desconoce
