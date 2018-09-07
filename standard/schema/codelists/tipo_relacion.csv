@@ -10,7 +10,7 @@ Codigo,Nombre,Descripcion
 9,Amante,Victimario es amante de la victima.
 10,Pareja anterior, Pareja o cónyuge anterior.
 11,Pariente,Victimario es pariente consaguíneo de la victima.
-12,Laboral,Victimario es empleado/a de la victima o colega.
+12,Laboral,Victimario es empleado/a o colega de la victima.
 13,Conocido/a,Victimario es conocido/a de la victima.
 14,Amigo,Amigo de la victima.
 15,Otro Transgresor,Otro transgresor conocido por la victima.

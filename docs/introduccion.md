@@ -39,138 +39,153 @@ Definir listas de códigos es muy importante para establecer un vocabulario com�
 
 En qué institución u organismo los datos fueron generados.
 
-| Código          | Nombre        | Descripción                                     |
-| --------------- |:------------------------------:| ------------------------------:|
-| 1               | Policial                       | Organismo policial             |
-| 2               | Judicial                       | Organismo Judicial             |
-| 3               | Fiscalia                       | Fiscalia                       |
-| 4               | Salud                          | Institución de salud           |
-| 5               | Ministerio de Desarrollo Social| Ministerio de Desarrollo Social|
-| 6               | Justicia provincial            | Justicia provincial            |
-| 7               | Ministerio público fiscal      | Ministerio público fiscal      |
+| Código |             Nombre              |                         Descripción |
+|:-------|:-------------------------------:|------------------------------------:|
+| 1      |            Policial             |                  Organismo policial |
+| 2      |            Judicial             |                  Organismo Judicial |
+| 3      |            Fiscalia             |                            Fiscalia |
+| 4      |              Salud              |                Institución de salud |
+| 5      | Ministerio de Desarrollo Social |     Ministerio de Desarrollo Social |
+| 6      |       Justicia provincial       |                 Justicia provincial |
+| 7      |    Ministerio público fiscal    |           Ministerio público fiscal |
+| 8      |     Ministerio de justicia      |              Ministerio de Justicia |
+| 9      |            Medicina             |            Medicina Legal o Forense |
+| 10     |     Secretaría de la mujer      | Ministerio o Secretaría de la Mujer |
 
 #### Identidad de Género
 
 Alude a la percepción que una persona tiene sobre su género.
 
-| Código          | Nombre                         | Descripción                                                     |
-| --------------- |:------------------------------:| ---------------------------------------------------------------:|
-| 1               | Cis Hombre                     | Hombre que se identifica con el genero asignado al nacer.       |
-| 2               | Cis Mujer                      | Mujer que se identifica con el genero asignado al nacer.        |
-| 3               | No Binario                     | Persona que no se identifica con genero femenino o masculino.   |
-| 4               | Otro                           | Otra identificación.                                            |
-| 5               | Se Desconoce                   | Se desconoce el genero.                                         |
-| 6               | Mujer trans                    | Mujer que no se identifica con el genero asignado al nacer.     |
-| 7               | Hombre trans                   | Hombre que no se identifica con el genero asignado al nacer.    |
+| Código |    Nombre    |                                                   Descripción |
+|:-------|:------------:|--------------------------------------------------------------:|
+| 1      |  Cis Hombre  |     Hombre que se identifica con el genero asignado al nacer. |
+| 2      |  Cis Mujer   |      Mujer que se identifica con el genero asignado al nacer. |
+| 3      |  No Binario  | Persona que no se identifica con genero femenino o masculino. |
+| 4      |     Otro     |                                          Otra identificación. |
+| 5      | Se Desconoce |                                       Se desconoce el genero. |
+| 6      | Mujer trans  |   Mujer que no se identifica con el genero asignado al nacer. |
+| 7      | Hombre trans |  Hombre que no se identifica con el genero asignado al nacer. |
 
 #### Modalidad
 
 La modalidad del crimen determina la existencia de armas de fuego, armas blancas u otro tipo de objetos.
 
-| Código          | Nombre                         | Descripción                    |
-| --------------- |:------------------------------:| ------------------------------:|
-| 1               | Golpes                         | Muerte por golpes.             |
-| 2               | Disparo de bala                | Muerte por disparo de bala.    |
-| 3               | Apuñalamiento                  | Muerte por apuñalamiento.      |
-| 4               | Quemaduras                     | Muerte por quemaduras.         |
-| 5               | Asfixia                        | Muerte por asfixia.            |
-| 6               | Ahogamiento                    | Muerte por ahogamiento.        |
+| Código |      Nombre      |                         Descripción |
+|:-------|:----------------:|------------------------------------:|
+| 1      |      Golpes      |                  Muerte por golpes. |
+| 2      | Disparo de bala  |         Muerte por disparo de bala. |
+| 3      |  Apuñalamiento   |           Muerte por apuñalamiento. |
+| 4      |    Quemaduras    |              Muerte por quemaduras. |
+| 5      |     Asfixia      |                 Muerte por asfixia. |
+| 6      |   Ahogamiento    |             Muerte por ahogamiento. |
+| 7      |  Ataladramiento  |          Muerte por ataladramiento. |
+| 8      | Atropellamiento  |         Muerte por atropellamiento. |
+| 9      | Estrangulamiento |         Muerte por estangulamiento. |
+| 10     |   Otros medios   |            Muerte por otros medios. |
+| 11     |   Se desconoce   | Se desconoce moedalidad del crimen. |
 
 #### Tipo de Victima
 
 Si fue la victima principal del asesinato o secundaria.
 
-| Código          | Nombre                         | Descripción                            |
-| --------------- |:------------------------------:| --------------------------------------:|
-| 1               | Principal                      | La víctima principal del feminicidio.  |
-| 2               | Vinculado                      | Víctima vinculada al crimen principal. |
+| Código |  Nombre   |                            Descripción |
+|:-------|:---------:|---------------------------------------:|
+| 1      | Principal |  La víctima principal del feminicidio. |
+| 2      | Vinculado | Víctima vinculada al crimen principal. |
 
 #### Tipo de Relación
 
 Tipo de relación entre la victima y el victimario.
 
-| Código          | Nombre                         | Descripción                                 |
-| --------------- |:------------------------------:| -------------------------------------------:|
-| 1               | Padre                          | Victimario es padre de la victima.          |
-| 2               | Madre                          | Victimario es madre de la victima.          |
-| 3               | Padrastro                      | Victimario es padrastro de la victima.      |
-| 4               | Madrastra                      | Victimario es madrastra de la victima.      |
-| 5               | Tutor/a                        | Victimario es tutor/a de la victima.        |
-| 6               | Esposo/a                       | Victimario es esposo/a de la victima.       |
-| 7               | Concubino/a                    | Victimario es concubino/a de la victima.    |
-| 8               | Novio/a                        | Victimario es novio/a de la victima.        |
-| 9               | Amante                         | Victimario es amante de la victima.         |
-| 10              | Pariente                       | Victimario es pariente de la victima.       |
-| 11              | Persona del hogar              | Victimario es empleado/a de la victima.     |
-| 12              | Conocido/a                     | Victimario es conocido/a de la victima.     |
-| 13              | Desconocido/a                  | Victimario no es conocido/a  de la victima. |
-| 14              | Otro                           | Otro tipo de relación.                      |
-| 15              | Se desconoce                   | Se desconoce el tipo de relación.           |
+| Código |     Nombre      |                                      Descripción |
+|:-------|:---------------:|-------------------------------------------------:|
+| 1      |      Padre      |               Victimario es padre de la victima. |
+| 2      |      Madre      |               Victimario es madre de la victima. |
+| 3      |    Padrastro    |           Victimario es padrastro de la victima. |
+| 4      |    Madrastra    |           Victimario es madrastra de la victima. |
+| 5      |     Tutor/a     |             Victimario es tutor/a de la victima. |
+| 6      |    Esposo/a     |            Victimario es esposo/a de la victima. |
+| 7      |   Concubino/a   |         Victimario es concubino/a de la victima. |
+| 8      |     Novio/a     |             Victimario es novio/a de la victima. |
+| 9      |     Amante      |              Victimario es amante de la victima. |
+| 10     | Pareja anterior |         Pareja o cónyuge anterior de la victima. |
+| 11     |    Pariente     |            Victimario es pariente de la victima. |
+| 12     |     Laboral     | Victimario es empleado/a o colega de la victima. |
+| 13     |    Conocido     |          Victimario es conocido/a de la victima. |
+| 14     |      Amigo      |             Victimario es amigo/a de la victima. |
+| 15     |      Otro       |                           Otro tipo de relación. |
+| 16     |    Autoridad    |                           Autoridades oficiales. |
+| 17     |   Desconocido   |      Victimario no es conocido/a  de la victima. |
+| 18     |  Se desconoce   |                Se desconoce el tipo de relación. |
 
 
 #### Orientación Sexual
 
 Se refiere a un patrón de atracción sexual, erótica, emocional o amorosa a determinado grupo de personas definidas por su sexo.
 
-| Código          | Nombre                         | Descripción                    |
-| --------------- |:------------------------------:| ------------------------------:|
-| 1               | Lesbiana                       |                                |
-| 2               | Gay                            |                                |
-| 3               | Hetereosexual                  |                                |
-| 4               | Bisexual                       |                                |
-| 5               | Asexual                        |                                |
-| 6               | Otro                           |                                |
-| 7               | Se desconoce                   |                                |
-
+| Código |    Nombre     | Descripción |
+|:-------|:-------------:|------------:|
+| 1      |   Lesbiana    |             |
+| 2      |      Gay      |             |
+| 3      | Hetereosexual |             |
+| 4      |   Bisexual    |             |
+| 5      |    Asexual    |             |
+| 6      |     Otro      |             |
+| 7      | Se desconoce  |             |
 
 
 #### Nivel Educativo
 
 Fuente: http://unesdoc.unesco.org/images/0022/002207/220782s.pdf
 
-| Código          | Nombre                                           | Descripción                    |
-| --------------- |:------------------------------------------------:| ------------------------------:|
-| 0               | Educación de la primera infancia.                |                                |
-| 1               | Menos que primaria                               |                                |
-| 2               | Educación primaria                               |                                |
-| 3               | Educación secundaria baja                        |                                |
-| 4               | Educación secundaria alta                        |                                |
-| 5               | Educación postsecundaria no terciaria            |                                |
-| 6               | Educación terciaria de ciclo corto               |                                |
-| 7               | Grado en educación terciaria o nivel equivalente |                                |
-| 8               | Nivel de maestría, especialización o equivalente |                                |
-| 9               | Nivel de doctorado o equivalente                 |                                |
-| 10              | Se desconoce                                     |                                |
+| Código |                      Nombre                      | Descripción |
+|:-------|:------------------------------------------------:|------------:|
+| 0      |        Educación de la primera infancia.         |             |
+| 1      |                Menos que primaria                |             |
+| 2      |                Educación primaria                |             |
+| 3      |            Educación secundaria baja             |             |
+| 4      |            Educación secundaria alta             |             |
+| 5      |      Educación postsecundaria no terciaria       |             |
+| 6      |        Educación terciaria de ciclo corto        |             |
+| 7      | Grado en educación terciaria o nivel equivalente |             |
+| 8      | Nivel de maestría, especialización o equivalente |             |
+| 9      |         Nivel de doctorado o equivalente         |             |
+| 10     |                   Se desconoce                   |             |
 
 #### Situación jurídica
 
 Situación jurídica de la persona victimario.
 
-| Código          | Nombre                         | Descripción                         |
-| --------------- |:------------------------------:| -----------------------------------:|
-| 1               | Indagado                       |                                     |
-| 2               | Procesado                      |                                     |
-| 3               | Condenado                      |                                     |
-| 4               | Fugitivo                       |                                     |
-| 5               | En libertad condicional        |                                     |
-| 6               | Liberado                       |                                     |
-| 7               | Se desconoce                   | Se desconoce la situación juridica  |
+| Código |         Nombre          |                        Descripción |
+|:-------|:-----------------------:|-----------------------------------:|
+| 1      |        Imputado         |                                    |
+| 2      |        Indagado         |                                    |
+| 3      |        Procesado        |                                    |
+| 4      |         Acusado         |                                    |
+| 5      |        Condenado        |                                    |
+| 6      |        Fugitivo         |                                    |
+| 7      | En libertad condicional |                                    |
+| 8      |       Preventiva        |                 Presión preventiva |
+| 9      |          Otro           |                                    |
+| 10     |      Se desconoce       | Se desconoce la situación juridica |
 
 
 #### Tipo de Lugar
 
 Tipo de lugar del hecho
 
-| Código          | Nombre        | Descripción                                     |
-| --------------- |:------------------------------:| ------------------------------:|
-| 1               | Casa victima                   |                                |
-| 2               | Casa victimario                |                                |
-| 3               | Casa ambos                     |                                |
-| 4               | Casa familiar                  |                                |
-| 5               | Calle                          |                                |
-| 6               | Otro                           |                                |
-| 7               | Se Desconoce                   |                                |
-| 8               | Puesto de trabajo              |                                |
+| Código |        Nombre         |                            Descripción |
+|:-------|:---------------------:|---------------------------------------:|
+| 1      |   Domicilio victima   |                                        |
+| 2      | Domicilio victimario  |                                        |
+| 3      | Domicilio particular  |                                        |
+| 4      |    Espacio abierto    |                                        |
+| 5      |   Puesto de Trabajo   |                                        |
+| 6      | Institución educativa |                                        |
+| 7      |        Prisión        | Instituciones penales o correcionales. |
+| 8      |      Institución      |     Entornos de atención institucional |
+| 9      |         Otro          |                                        |
+| 10     |     Se desconoce      |                                        |
 
 ## Modelo Conceptual
 
@@ -203,7 +218,7 @@ Un modelo conceptual es la representación de un sistema que ayuda a entender co
 
 ### Entidad “Victimario”
 
-* ID: Identificador en nuestro sistema de la persona. Cada ID es única
+* ID: Identificador en nuestro sistema de la persona.
 * DNI: Documento de Identidad No publicable. (*)
 * Nombre: Nombre completo de la persona. (*)
 * Identidad de Género
@@ -222,7 +237,7 @@ Un modelo conceptual es la representación de un sistema que ayuda a entender co
 * Permiso de portación de armas
 * Pertenencia a una fuerza de seguridad
 * Antecedentes: Violencia previa, medidas de protección, otros delitos
-* Generador: Organismo een donde fue recolectado. Policial, Judicial, Fiscalía, Salud.
+* Organismo Fuente: Organismo en donde fue recolectado. Policial, Judicial, Fiscalía, Salud.
 * Suicidio: Consumado o tentativa de suicidio
 
 ### Entidad “Hecho”
@@ -237,7 +252,7 @@ Un modelo conceptual es la representación de un sistema que ayuda a entender co
 * Hora: Hora estimada en que sucedió
 * Denuncia previa: Tenía denuncia previa al hecho
 * Proceso Judicial: Puede incluir si el proceso esta activo. (*)
-* Generador: Organismo desde donde vienen los datos.
+* Organismo fuente: Organismo desde donde vienen los datos.
 
 ### Entidad “Relación con la víctima”
 
@@ -266,10 +281,10 @@ Un modelo conceptual es la representación de un sistema que ayuda a entender co
 
 ### Entidad “Organismo Fuente”
 
-* Nombre: nombre del organismo.
-* Tipo de Organismo: tipo de organismo según lista de códigos.
-* Rol Responsable: que rol dentro del organismo recolecta datos.
-* Contacto: correo para contactar al organismo por datos.
+* Nombre: Nombre del organismo.
+* Tipo de Organismo: Tipo de organismo según lista de códigos.
+* Rol Responsable: Que rol dentro del organismo recolecta datos.
+* Contacto: Correo para contactar al organismo por datos.
 
 
 ## Casos de Uso
@@ -306,4 +321,6 @@ Un modelo conceptual es la representación de un sistema que ayuda a entender co
 * Feminicidio.net (el registro geofeminicidio no está funcionando en este momento, pero es una base de datos con alrededor de 50 campos por caso) https://informes.feminicidio.net/listado-de-feminicidios-y-otros-asesinatos-de-mujeres-en-2018/
 
 * Información sistematizada de violencia de Paraguay, que incluye datos sobre feminicidios http://informativomujer.org.py/cuadros/
-* Propuesta de medición de femicidios del Ministerio Público Fiscal de Argentina. https://www.mpf.gob.ar/ufem/files/2017/11/UFEM_Medici%C3%B3nFemicidios2017.pdf
+* [Propuesta de medición de femicidios del Ministerio Público Fiscal de Argentina.] (https://www.mpf.gob.ar/ufem/files/2017/11/UFEM_Medici%C3%B3nFemicidios2017.pdf)
+
+* [Mapeando femicidios en la región](https://www.google.com/maps/d/u/0/viewer?ll=-0.8483637028616582%2C-74.79742390000001&hl=en&z=3&mid=1y2xG5YwASOtwMve2BT9zOOrIQKs)

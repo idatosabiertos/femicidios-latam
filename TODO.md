@@ -1,16 +1,15 @@
 # TODO
 
-- incorporar comentarios de karen
-  - contestar primer correo
-- mirar lista de correo a ver quien se anoto
 - hablar sobre metodologia/contenido taller en mendoza
-- helena
-    - reunion ultima semana de junio
-- boleto a mendoza
+
+- ACTUALIZAR DOCUMENTO DOC PARA IMPRIMIR
+
 - consejo nacional de eliminacion de la violencia
   - como se reciben las denuncias de violencia domestica
-- pasar todo al schema en github (tambien la lista de codigos).
 - pasar los datos de argentina a este estandar.
+
+
+
 
 - Definir como se crean lista de codigos (en documentación).
 - Chequear consistencia de idioma en todos lados.
@@ -19,17 +18,23 @@
 
 - discapacidad deberia ser una lista de codigos?
     - https://www.disabled-world.com/disability/types/
-- etnia deberia ser una lista de codigos?
 
 ## Siguiente Reunión
 
 - taller en Mendoza
 
+## Taller
+
+6 personas
+  -
+
+
+
 ## Conferencias Posibles
 
 ### Taller Mendoza
 
-- 14 de Junio
+-   13 y 14 de Junio
 
 ### IODC 2018
 

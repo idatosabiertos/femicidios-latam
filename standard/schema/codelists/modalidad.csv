@@ -6,7 +6,7 @@ Codigo,Nombre,Descripcion
 5,Asfixia,Muerte por asfixia.
 6,Ahogamiento,Muerte por ahogamiento.
 7,Ataladramiento,Ataladramiento.
-8,Atropellamiento,Atropellamiento.
-9,Estrangulamiento,Estrangulamiento.
-10,Otros medios,Otros medios.
-11,Se desconoce,Se desconoce.
+8,Atropellamiento,Asesinada por Atropellamiento.
+9,Estrangulamiento,Asesinada por estrangulamiento..
+10,Otros medios,Asesinada por otros medios.
+11,Se desconoce,Se desconoce la modalidad.

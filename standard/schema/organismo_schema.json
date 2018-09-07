@@ -3,9 +3,13 @@
     "description": "Información para identificar al organismo que genera los datos" ,
     "type": "object",
     "properties": {
+        "id": {
+            "type": "number",
+            "description": "Identificador único de este organismo en nuestro sistema"
+        },
         "nombre": {
             "title": "Organismo",
-            "description": "Organismo donde se generan los datos.",
+            "description": "Nombre del organismo donde se generan los datos.",
             "type": "string"
         },
         "tipoOrganismo": {
@@ -14,8 +18,8 @@
             "type": "string"
         },
         "rol": {
-            "title": "Rol",
-            "description": "Rol de quien recolecta los datos.",
+            "title": "Rol de persona responsable de datos",
+            "description": "Rol de la persona dentro del organismo que captura los datos.",
             "type": "string"
         },
         "contacto": {

@@ -4,8 +4,8 @@ Codigo,Nombre,Descripcion
 3,Domicilio particular
 4,Espacio Abierto, Calle o transporte público.
 5,Puesto de Trabajo
-6,Escuelas u otras instituciones educativas
-7,Prisiones, Instituciones penales o correcionales
+6,Institución educativa, Escuelas u otras instituciones educativas
+7,Prisión, Instituciones penales o correcionales
 8,Institucion,Entornos de atención institucional (incluyen: hospitales, instalaciones psiquiátricas, hogares de atención residencial o jubilación, casas de detención preventiva y otras instalaciones de atención institucional).
 9,Otro
 10,Se desconoce
