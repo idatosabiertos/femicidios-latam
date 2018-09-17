@@ -5,7 +5,8 @@
         "estado": {
             "type": "number",
             "title": "Estado procesal",
-            "description": "Hubo un proceso de investigación"
+            "description": "Hubo un proceso de investigación",
+            "type": "boolean"
         },
         "denunciante": {
             "title": "Denunciante",
@@ -18,7 +19,7 @@
             "description": "Fecha de apertura",
             "type": "string"
         },
-        "personasOmputadas": {
+        "personasImputadas": {
             "title":"Número de personas imputadas",
             "description": "Número de personas imputadas",
             "type": "string"

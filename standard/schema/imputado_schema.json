@@ -1,5 +1,5 @@
 {
-    "title": "victimario",
+    "title": "imputado",
     "type": "object",
     "properties": {
         "id": {
@@ -40,7 +40,7 @@
         },
         "lugarNacimiento": {
             "title": "Lugar de Nacimiento",
-            "description": "Lugar de nacimiento",
+            "description": "Lugar de nacimiento.",
             "type": "string",
             "access": "private"
         },
@@ -100,7 +100,7 @@
         },
         "permisoPortacionArmas": {
             "title":"Permiso de portación de armas",
-            "description": "Permiso de portación de armas",
+            "description": "Permiso de portación de armas.",
             "type": "string",
             "access": "public"
         },
@@ -150,8 +150,9 @@
                     "description": "Contacto del organismo o persona que recolecto los datos.",
                     "type": "string",
                     "access": "public"
-                },
+                }
             },
+            "access": "public"
         },
         "required": [
             "nombre"

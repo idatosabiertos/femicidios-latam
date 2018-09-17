@@ -14,15 +14,15 @@
             "type": "object",
             "access": "public"
         },
-        "tipoDeVictima": {
+        "tipoVictima": {
             "title": "Tipo de Victima",
             "description": "Relación de victima de acuerdo al hecho.",
             "type": "string",
             "access": "public"
         },
-        "tipoDeRelacion": {
+        "tipoRelacion": {
             "title": "Tipo de Relación",
-            "description": "Relación o parentesco entre victima y victimario.",
+            "description": "Relación o parentesco entre victima e imputado.",
             "type": "object",
             "access": "public"
         },
@@ -37,7 +37,7 @@
             "description": "Si hubo agresión sexual o no.",
             "type": "boolean",
             "access": "public"
-        },        
+        },
         "fecha": {
             "title": "Fecha",
             "description": "Fecha y hora estimada en que sucedió el hecho.",
@@ -46,7 +46,7 @@
         },
         "denunciaPrevia": {
             "title": "Denuncia Previa",
-            "description": "El victimario tenia denuncia previa hecha por la victima.",
+            "description": "El imputado tenia denuncia previa hecha por la victima.",
             "type": "boolean",
             "access": "public"
         },

@@ -9,7 +9,7 @@
         },
         "tipo": {
             "title": "Tipo de relación",
-            "description": "Tipo de relación entre victima y victimario,  según lista de códigos.",
+            "description": "Tipo de relación entre victima e imputado,  según lista de códigos.",
             "type": "string"
         },
         "detalles": {

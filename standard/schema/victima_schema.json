@@ -76,7 +76,7 @@
         },
         "condicionMigratoria": {
             "title": "Condición Migratoria",
-            "description": "Condición migratoria",
+            "description": "Condición migratoria.",
             "type": "string",
             "access": "private"
         },
@@ -89,12 +89,15 @@
         "medidasProteccion": {
            "title": "Medidas de protección",
             "description": "Medidas cautelares (tobilleras, restricción perimetral, etc).",
-            "type": "string"
+            "type": "string",
+            "access": "public"
         },
         "denunciasPrevias": {
             "title":"Denuncias previas",
-            "description":"Denuncias previas de la vicitima, almacenadas con identificador.",
-            "type": "string"
+            "description":"Denuncias previas de la victima, almacenadas con identificador.",
+            "type": "string",
+            "access": "private"
+
         },
         "hijos": {
             "title": "Tiene hijos?",
@@ -125,8 +128,9 @@
                     "title": "Contacto",
                     "description": "Contacto del organismo o persona que recolecto los datos.",
                     "type": "string"
-                },
+                }
             },
+            "access": "public"
         },
         "required": [
             "nombre", "generador"

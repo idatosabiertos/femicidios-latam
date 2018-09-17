@@ -1,19 +1,19 @@
 Codigo,Nombre,Descripcion
-1,Padre,Victimario es padre de la víctima.
-2,Madre,Victimario es madre de la víctima.
-3,Padrastro, Victimario es padrastro de la víctima.
-4,Madrastra, Victimario es madrastra de la víctima.
-5,Tutor/a, Victimario es tutor/a de la víctima.
-6,Esposo/a,Victimario es esposo/a de la víctima.
-7,Concubino/a, Victimario es concubino/a de la víctima.
-8,Novio/a, Victimario es novio/a de la víctima.
-9,Amante,Victimario es amante de la víctima.
+1,Padre,Imputado es padre de la víctima.
+2,Madre,Imputado es madre de la víctima.
+3,Padrastro, Imputado es padrastro de la víctima.
+4,Madrastra, Imputado es madrastra de la víctima.
+5,Tutor/a, Imputado es tutor/a de la víctima.
+6,Esposo/a,Imputado es esposo/a de la víctima.
+7,Concubino/a, Imputado es concubino/a de la víctima.
+8,Novio/a, Imputado es novio/a de la víctima.
+9,Amante,Imputado es amante de la víctima.
 10,Pareja anterior, Pareja o cónyuge anterior.
-11,Pariente,Victimario es pariente consanguíneo de la víctima.
-12,Laboral,Victimario es empleado/a o colega de la víctima.
-13,Conocido/a,Victimario es conocido/a de la víctima.
+11,Pariente,Imputado es pariente consanguíneo de la víctima.
+12,Laboral,Imputado es empleado/a o colega de la víctima.
+13,Conocido/a,Imputado es conocido/a de la víctima.
 14,Amigo,Amigo de la víctima.
 15,Otro Transgresor,Otro transgresor conocido por la víctima.
 16,Autoridad,Por autoridades oficiales
-17,Desconocido/a, Victimario no es conocido/a la víctima.
+17,Desconocido/a, Imputado no es conocido/a la víctima.
 18,Se desconoce,Se desconoce el tipo de relación.
