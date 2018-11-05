@@ -15,6 +15,7 @@ Puesta en común de [datos sobre feminicidios](docs/introduccion.md) en diferent
 * [Información sistematizada de violencia de Paraguay](http://informativomujer.org.py/cuadros/), que incluye datos sobre feminicidios.
 * [Propuesta de medición de femicidios](https://www.mpf.gob.ar/ufem/files/2017/11/UFEM_Medici%C3%B3nFemicidios2017.pdf) del Ministerio Público Fiscal de Argentina.
 * [Mapeando femicidios en la región](https://www.google.com/maps/d/u/0/viewer?ll=-0.8483637028616582%2C-74.79742390000001&hl=en&z=3&mid=1y2xG5YwASOtwMve2BT9zOOrIQKs)
+* [Mapa de feminicidios en Nicaragua](https://seleneyang.carto.com/builder/14f3a6a1-03ce-47df-b3e7-bf1bd7b36298/embed)
 
 ## Recursos en la red para construcción de tecnologia
 
