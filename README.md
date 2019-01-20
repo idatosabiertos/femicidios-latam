@@ -26,3 +26,4 @@ Puesta en común de [datos sobre feminicidios](docs/introduccion.md) en diferent
 * https://www.techsafety.org/safetyapps
 * https://www.techsafety.org/otherappsforsurvivors
 * https://www.takebackthetech.net/es/take-action/2015-11-25-0
+* Data Feminism (en ingles): https://bookbook.pubpub.org/data-feminism
